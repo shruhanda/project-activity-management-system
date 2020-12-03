@@ -1,0 +1,27 @@
+.navbar-brand{
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+}
+.back-image{
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 90vh;
+	border-radius: 0px;
+	margin-top: 74px;
+}
+.font-italic{
+	font-size: 24px;
+}
+
+.mainHeading{
+	margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px){
+.myclass{
+	margin-top: 350px;
+	text-align: center;
+}
+}

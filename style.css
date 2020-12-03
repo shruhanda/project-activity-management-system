@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color:#505962 ;
+}
+
+.offset:before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -3rem;
+}
+
+/*--- Navigation --*/
+ .navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem; 
+  letter-spacing: .1rem;
+  background: rgba(0,0,0,.6)!important;
+}
+.navbar-brand img{
+  height: 1rem;
+}
+.navbar-nav li {
+   padding-right: 0.7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #7fa4e3;
+}
+
+/*--- Start Landing Page --*/
+
+.home-inner {
+    background-image: url(img/house.png);
+    opacity: 0.7;
+} 
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position:  absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+.caption h1 {
+    font-size: 3.2rem;
+    font-size: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem.8rem black;
+    padding-bottom: 1rem;
+}
+.caption h3 {
+    font-size: 1.7rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+}
+/*--- End of Landing Page --*/
+
+/*--- Start of About Section --*/
+/**about {
+  background-color: #67748a;
+}*/
+.narrow{
+    width: 75%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+}
+.narrow h1{
+    font-size: 2.4rem;
+}
+.btn-secondary {
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: .6rem 1rem;
+    margin: 1rem;
+    color: white;
+    background-color: #7fa4e3;
+    border-color: #7fa4e3;
+}
+.btn-secondary:hover{
+    background-color: #6986b8;
+    border-color: #6986b8;
+}
+.about-button {
+  color: white;
+}
+/*--- End of About Section--*/
+
+
+/*--- Start of Our Work --*/
+
+.jumbotron{
+  margin-bottom: 0;
+  padding: 0rem 0 3rem;
+}
+h3.heading {
+    font-size: 1.9rem; 
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #7fa4e3;
+    margin: 0 auto 2rem;
+}
+/*--- Start Carousel --*/
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 33%;
+max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 3px; }
+/*--- End Carousel --*/
+
+/*--- End of Our Work --*/
+
+/*--- Start of Contact Section --*/
+
+footer{
+    background-color: #40474e;
+    color: white; 
+    padding:2rem 0 2rem;
+    margin-top: 1rem;
+}
+footer img {
+    margin: 1.5rem 0;
+}
+footer a {
+    color: white;
+}
+footer svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
+footer svg.svg-inline--fa:hover{
+    color: #7fa4e3 !important;
+}
+hr.socket {
+    width: 100%;
+    border-top: .2rem solid #666b71;
+    margin-top: rem;
+}
+/*--- End of Contact Section --*/
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
